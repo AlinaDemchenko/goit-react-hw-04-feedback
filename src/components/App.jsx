@@ -2,7 +2,7 @@ import Section from './Section/Section';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Notification from './Notification/Notification';
-import React, { Component, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 const App = () => {
   const [states, setStates] = useState({good: 0, neutral: 0, bad: 0});
